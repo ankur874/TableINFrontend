@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function SignUpScreen() {
   return (
-    <div className="flex flex-col h-screen bg-gray-100">
+    <div className="flex flex-col h-screen bg-gradient-to-r from-green-400 to-blue-500">
       <div className="grid place-items-center mx-2 my-20 sm:my-auto">
         <div className="w-11/12 p-12 sm:w-8/12 md:w-6/12 lg:w-5/12 2xl:w-4/12 
             px-6 py-10 sm:px-10 sm:py-6 

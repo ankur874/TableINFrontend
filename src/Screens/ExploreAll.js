@@ -10,9 +10,10 @@ export default function ExploreAll() {
     >
       <header className="flex  flex-row justify-evenly w-screen  py-2">
         <img
+          alt="se"
           className="h-11"
           src="https://cdn.freelogovectors.net/wp-content/uploads/2020/11/booking_com_icon_logo.png"
-        ></img>
+        />
 
         <div className="p-1 relative">
           <input
@@ -83,9 +84,10 @@ function singleComponent() {
   return (
     <div className="flex flex-col  justify-start w-56 ">
       <img
+        alt="s"
         className="rounded-lg motion-safe:hover:scale-110"
         src="https://www.caterermiddleeast.com/2021/05/claviterrace.jpg"
-      ></img>
+      />
       <div className="flex flex-row justify-between ">
         <div className="font-bold text-black">Restaurant Name</div>
         <div>

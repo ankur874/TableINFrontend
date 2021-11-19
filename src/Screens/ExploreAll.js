@@ -1,5 +1,4 @@
 import { useState } from "react";
-import DatePicker from "react-date-picker";
 
 export default function ExploreAll() {
   const [showHotels, setHotels] = useState(false);
@@ -75,6 +74,7 @@ function Restaurants() {
       </div>
       <div className="grid  justify-items-center md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 grid-cols-1 py-14 gap-4 ">
         {singleComponent()}
+
       </div>
     </>
   );

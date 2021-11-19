@@ -1,15 +1,28 @@
 
 
 import './App.css';
-import ExploreAll from './Screens/ExploreAll';
-import ExploreMap from './Screens/ExploreMap';
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+
+import HomeScreen from "./Screens/HomeScreen";
+import SignUpScreen from "./Screens/SignUpScreen";
+import LoginScreen from "./Screens/LoginScreen";
 
 function App() {
   return (
-    <div className="App">
-     <ExploreAll></ExploreAll>
-    </div>
+
+    <Router>
+      <Routes >
+        <Route exact path="/" element={<HomeScreen />} />
+        <Route path='/signup' element={<SignUpScreen />} />
+        <Route path='/login' element={<LoginScreen />} />
+      </Routes>
+    </Router>
+
   );
 }
 

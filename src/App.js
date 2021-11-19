@@ -12,7 +12,7 @@ import LoginScreen from "./Screens/LoginScreen";
 function App() {
   return (
     <Router>
-      <Routes >
+      <Routes>
         <Route exact path="/" element={<HomeScreen />} />
         <Route path='/signup' element={<SignUpScreen />} />
         <Route path='/login' element={<LoginScreen />} />

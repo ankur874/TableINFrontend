@@ -1,13 +1,14 @@
+
+
 import './App.css';
-import { API } from "./backend"
+import ExploreAll from './Screens/ExploreAll';
+import ExploreMap from './Screens/ExploreMap';
+
 
 function App() {
   return (
     <div className="App">
-      Hello world
-
-      <h1>{`${API}`}</h1>
-
+     <ExploreMap></ExploreMap>
     </div>
   );
 }

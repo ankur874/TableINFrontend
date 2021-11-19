@@ -1,5 +1,5 @@
 import { useState } from "react";
-import DatePicker from "react-date-picker";
+
 
 export default function ExploreAll() {
   const [showHotels, setHotels] = useState(false);
@@ -85,7 +85,7 @@ function singleComponent() {
       <img
         className="rounded-lg motion-safe:hover:scale-110"
         src="https://www.caterermiddleeast.com/2021/05/claviterrace.jpg"
-      ></img>
+      />
       <div className="flex flex-row justify-between ">
         <div className="font-bold text-black">Restaurant Name</div>
         <div>

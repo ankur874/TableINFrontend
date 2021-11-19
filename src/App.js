@@ -8,7 +8,7 @@ import ExploreMap from './Screens/ExploreMap';
 function App() {
   return (
     <div className="App">
-     <ExploreMap></ExploreMap>
+     <ExploreAll></ExploreAll>
     </div>
   );
 }

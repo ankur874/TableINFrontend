@@ -1,5 +1,3 @@
-
-
 import './App.css';
 
 import {
@@ -11,15 +9,17 @@ import {
 import HomeScreen from "./Screens/HomeScreen";
 import SignUpScreen from "./Screens/SignUpScreen";
 import LoginScreen from "./Screens/LoginScreen";
+import ExploreAll from './Screens/ExploreAll';
 
 function App() {
   return (
 
     <Router>
-      <Routes >
+      <Routes>
         <Route exact path="/" element={<HomeScreen />} />
         <Route path='/signup' element={<SignUpScreen />} />
         <Route path='/login' element={<LoginScreen />} />
+        <Route path="/explore" element={<ExploreAll />} />
       </Routes>
     </Router>
 
